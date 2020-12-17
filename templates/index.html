@@ -52,13 +52,13 @@
           <a href="{{ url_for('classes',id=1) }}" class="list-group-item d-flex justify-content-between align-items-center list-group-item-dark"
             aria-current="true">1er niveau</a>
           <li class="list-group-item d-flex justify-content-between align-items-center">nombre de garçons
-            <span class="badge bg-danger rounded-pill">14</span>
+            <span class="badge bg-danger rounded-pill">{{count["l1"][0]}}</span>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">nombre de filles
-            <span class="badge bg-danger rounded-pill">14</span>
+            <span class="badge bg-danger rounded-pill">{{count["l1"][1]}}</span>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">effectifs
-            <span class="badge bg-success rounded-pill">14</span>
+            <span class="badge bg-success rounded-pill">{{count["l1"][0]+count["l1"][1]}}</span>
           </li>
         </ul>
       </div>
@@ -69,13 +69,13 @@
           <li
             class="list-group-item d-flex justify-content-between align-items-center d-flex justify-content-between align-items-center">
             nombre de garçons
-            <span class="badge bg-danger rounded-pill">14</span>
+            <span class="badge bg-danger rounded-pill">{{count["l2"][0]}}</span>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">nombre de filles
-            <span class="badge bg-danger rounded-pill">14</span>
+            <span class="badge bg-danger rounded-pill">{{count["l2"][1]}}</span>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">effectifs
-            <span class="badge bg-success rounded-pill">14</span>
+            <span class="badge bg-success rounded-pill">{{count["l2"][0]+count["l2"][1]}}</span>
           </li>
         </ul>
       </div>
@@ -86,13 +86,13 @@
           <a href="{{ url_for('classes',id=3) }}" class="list-group-item d-flex justify-content-between align-items-center list-group-item-dark" aria-current="true">3eme
             niveau</a>
           <li class="list-group-item d-flex justify-content-between align-items-center">nombre de garçons
-            <span class="badge bg-danger rounded-pill">14</span>
+            <span class="badge bg-danger rounded-pill">{{count["l3"][0]}}</span>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">nombre de filles
-            <span class="badge bg-danger rounded-pill">14</span>
+            <span class="badge bg-danger rounded-pill">{{count["l3"][1]}}</span>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">effectifs
-            <span class="badge bg-success rounded-pill">14</span>
+            <span class="badge bg-success rounded-pill">{{count["l3"][0]+count["l3"][1]}}</span>
           </li>
         </ul>
       </div>
@@ -101,13 +101,13 @@
           <a href="{{ url_for('classes',id=4) }}" class="list-group-item d-flex justify-content-between align-items-center list-group-item-dark" aria-current="true">4eme
             niveau</a>
           <li class="list-group-item d-flex justify-content-between align-items-center">nombre de garçons
-            <span class="badge bg-danger rounded-pill">14</span>
+            <span class="badge bg-danger rounded-pill">{{count["l4"][0]}}</span>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">nombre de filles
-            <span class="badge bg-danger rounded-pill">14</span>
+            <span class="badge bg-danger rounded-pill">{{count["l4"][1]}}</span>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">effectifs
-            <span class="badge bg-success rounded-pill">14</span>
+            <span class="badge bg-success rounded-pill">{{count["l4"][0]+count["l4"][1]}}</span>
           </li>
         </ul>
       </div>
